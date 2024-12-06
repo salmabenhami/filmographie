@@ -1,0 +1,32 @@
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 50px;
+  margin-right: 50px;
+}
+h1{
+  text-align: center;
+}
+#content{
+  display: flex;
+  justify-content: center;
+}
+button{
+  background-color: rgb(12, 154, 12);
+  color: white;
+  height: 30px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 90px;
+}
+#btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#parent{
+  border-radius: 50px;
+  border: 2px black solid;
+  width: 50%;
+}
