@@ -1,0 +1,119 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(63, 63, 63);
+  height: 50px;
+  color: white;
+}
+body{
+  background-color: rgb(240, 240, 237);
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 15px ;
+}
+#lien{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#logo{
+  margin:15px;
+}
+h2{
+  text-align: center;
+}
+#content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  
+}
+#element{
+  box-shadow:  rgb(128, 7, 7) ;
+  border-radius: 10px;
+  width: 15%;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient(to right, rgb(174, 11, 174),rgb(218, 209, 209));
+
+}
+span{
+  font-weight: bolder;
+}
+#search{
+  border: 2px solid white;
+  float: right;
+}
+#search2{
+  background-color: black;
+  color: white;
+  float: right;
+}
+button{
+  background-color: black;
+  color: white;
+}
+#pag{
+  margin-top: 20px;
+  text-align: center;
+}
+#formulaire{
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+#input,select{
+  width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #fff;
+    box-sizing: border-box;
+} 
+label{
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #555;
+}
+legend {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+button{
+ border-radius: 10px;
+}
+#element2{
+  box-shadow: 0px 4px 10px rgba(95, 1, 79, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid rebeccapurple;
+}
+#element3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#footer{
+  text-align: center;
+  margin-top: 290px;
+  background-color: rgb(63, 63, 63);
+  height: 50px;
+  color: white;
+}
