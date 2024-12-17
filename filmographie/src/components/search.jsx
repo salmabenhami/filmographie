@@ -11,7 +11,7 @@ function Search(props){
   return (
     <div>
       <button id="search2" type="submit" onClick={Filtrer}>Chercher</button>
-      <input id="search" type="text" onChange={(e) => setrech(e.target.value)} />
+      <input id="search" type="text" placeholder="Rechercher un film" onChange={(e) => setrech(e.target.value)} />
     </div>
   )
 }

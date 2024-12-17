@@ -14,7 +14,7 @@ function Addfilm(props) {
             setmsg("les champs sont obligatoires")
             return
         }
-        setdata(true);
+        // setdata(true);
         const movie = {
             title: titre,
             director: director,

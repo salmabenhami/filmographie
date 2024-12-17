@@ -2,9 +2,10 @@ import { useState } from "react";
 
 function Sort(props) {
   const [trie, setTrie] = useState(true);
+  const[tab,settab]=useState(props.films)
 
   function trienote() {
-    const sortedMovies = [...props.films].sort((a, b) =>
+    const sortedMovies = [...tab].sort((a, b) =>
       trie ? a.rating - b.rating : b.rating - a.rating
     );
     props.setFilms(sortedMovies);  
